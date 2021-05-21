@@ -1,6 +1,6 @@
 {
   "name": "nextech-icp-medications",
-  "version": "0.0.1-alpha",
+  "version": "0.0.2-alpha",
   "description": "Medications Module",
   "types": "index.d.ts",
   "repository": {
