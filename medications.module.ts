@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { MaterialModule } from './material-module';
-import { TelemetryService } from './app/telemetry.service';
+import { MaterialModule } from './src/material-module';
+import { TelemetryService } from './src/app/telemetry.service';
 
 @NgModule({
   declarations: [],
