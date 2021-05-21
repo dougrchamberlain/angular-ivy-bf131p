@@ -3,7 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { MedicationsContainerComponent } from './medications-container/medications-container.component';
 
 const routes: Routes = [
-  { path: 'medications', component: MedicationsContainerComponent }
+  { path: ':id', component: MedicationsContainerComponent }
 ];
 
 @NgModule({
