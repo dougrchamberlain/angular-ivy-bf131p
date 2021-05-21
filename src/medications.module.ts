@@ -3,13 +3,12 @@ import { CommonModule } from '@angular/common';
 import { MaterialModule } from './src/material-module';
 import { TelemetryService } from './src/app/telemetry.service';
 import { AppRoutingModule } from './src/app/app-routing.module';
-import { MedicationsContainerComponent } from './src/app/medications-container/medications-container.component';
+import { MedicationsContainerComponent } from '../../medications-container/medications-container.component';
 import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { BrowserModule } from '@angular/platform-browser';
 import { AppRootComponent } from './src/app/app-root/app-root.component';
 import { HttpClientModule } from '@angular/common/http';
-import { MedicationsService } from './src/app/medications.service';
 
 @NgModule({
   bootstrap: [AppRootComponent],
@@ -32,7 +31,7 @@ export class MedicationsModule {}
     MaterialModule,
     HttpClientModule
   ],
-  providers: [MedicationsService, TelemetryService]
+  providers: [TelemetryService]
 })
 export class DocumentsModule {}
 
